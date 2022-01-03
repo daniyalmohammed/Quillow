@@ -3,7 +3,7 @@ Quillow is an elegant book management app on the App Store that allows you to se
 
 Please use the following link: http://daniyalmoha.me/quillow-project.html
 
-**The Quillow Story
+**The Quillow Story**
 
 Since my childhood, I have been obsessed with using my iPad. I have always marveled at the ease of use and access to extensive data through the form of apps. Additionally, I am an avid reader and wanted to keep track of the books I have read. However, the apps on the app store either had ugly UI's, ads plastered everywhere and none allowed you to log in to the app so you can access through multiple devices. With this in mind, as soon my university semester 1A ended, (first-year fall term), I decided to build the app, both because I wanted to create something and because my book list was a need I wanted fulfilled. I will now explain the timeline of creating this app.
 

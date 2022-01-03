@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct QuillowApp: App {
+    init() {
+      FirebaseApp.configure()
+    }
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            let booklist = BookList()
+            Home().environmentObject(booklist)
         }
     }
 }

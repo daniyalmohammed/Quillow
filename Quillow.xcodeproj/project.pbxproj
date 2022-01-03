@@ -11,6 +11,13 @@
 		F05032BF277A5A50000A78C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05032BE277A5A50000A78C8 /* ContentView.swift */; };
 		F05032C1277A5A51000A78C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05032C0277A5A51000A78C8 /* Assets.xcassets */; };
 		F05032C4277A5A51000A78C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F05032C3277A5A51000A78C8 /* Preview Assets.xcassets */; };
+		F05032CC277A5D58000A78C8 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = F05032CB277A5D58000A78C8 /* FirebaseAnalytics */; };
+		F05032CE277A5D58000A78C8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F05032CD277A5D58000A78C8 /* FirebaseAuth */; };
+		F05032D0277A5D58000A78C8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F05032CF277A5D58000A78C8 /* FirebaseFirestore */; };
+		F05032D3277A5D81000A78C8 /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = F05032D2277A5D81000A78C8 /* SwiftyJSON */; };
+		F05032D9277A5DDD000A78C8 /* book.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05032D8277A5DDD000A78C8 /* book.swift */; };
+		F05032DC277A5E2E000A78C8 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = F05032DB277A5E2E000A78C8 /* SDWebImageSwiftUI */; };
+		F0DA6999277A63C4007E433F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F0DA6998277A63C4007E433F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,10 @@
 		F05032BE277A5A50000A78C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F05032C0277A5A51000A78C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F05032C3277A5A51000A78C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F05032D8277A5DDD000A78C8 /* book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = book.swift; sourceTree = "<group>"; };
+		F05032DD277A60B6000A78C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F0DA6998277A63C4007E433F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F0DA699A27802DCF007E433F /* Quillow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Quillow.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +37,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F05032DC277A5E2E000A78C8 /* SDWebImageSwiftUI in Frameworks */,
+				F05032CC277A5D58000A78C8 /* FirebaseAnalytics in Frameworks */,
+				F05032CE277A5D58000A78C8 /* FirebaseAuth in Frameworks */,
+				F05032D3277A5D81000A78C8 /* SwiftyJSON in Frameworks */,
+				F05032D0277A5D58000A78C8 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +67,12 @@
 		F05032BB277A5A50000A78C8 /* Quillow */ = {
 			isa = PBXGroup;
 			children = (
+				F0DA699A27802DCF007E433F /* Quillow.entitlements */,
+				F05032DD277A60B6000A78C8 /* Info.plist */,
 				F05032BC277A5A50000A78C8 /* QuillowApp.swift */,
 				F05032BE277A5A50000A78C8 /* ContentView.swift */,
+				F0DA6998277A63C4007E433F /* GoogleService-Info.plist */,
+				F05032D8277A5DDD000A78C8 /* book.swift */,
 				F05032C0277A5A51000A78C8 /* Assets.xcassets */,
 				F05032C2277A5A51000A78C8 /* Preview Content */,
 			);
@@ -83,6 +103,13 @@
 			dependencies = (
 			);
 			name = Quillow;
+			packageProductDependencies = (
+				F05032CB277A5D58000A78C8 /* FirebaseAnalytics */,
+				F05032CD277A5D58000A78C8 /* FirebaseAuth */,
+				F05032CF277A5D58000A78C8 /* FirebaseFirestore */,
+				F05032D2277A5D81000A78C8 /* SwiftyJSON */,
+				F05032DB277A5E2E000A78C8 /* SDWebImageSwiftUI */,
+			);
 			productName = Quillow;
 			productReference = F05032B9277A5A50000A78C8 /* Quillow.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +138,11 @@
 				Base,
 			);
 			mainGroup = F05032B0277A5A50000A78C8;
+			packageReferences = (
+				F05032CA277A5D58000A78C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				F05032D1277A5D81000A78C8 /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				F05032DA277A5E2E000A78C8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = F05032BA277A5A50000A78C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +159,7 @@
 			files = (
 				F05032C4277A5A51000A78C8 /* Preview Assets.xcassets in Resources */,
 				F05032C1277A5A51000A78C8 /* Assets.xcassets in Resources */,
+				F0DA6999277A63C4007E433F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +172,7 @@
 			files = (
 				F05032BF277A5A50000A78C8 /* ContentView.swift in Sources */,
 				F05032BD277A5A50000A78C8 /* QuillowApp.swift in Sources */,
+				F05032D9277A5DDD000A78C8 /* book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,6 +230,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -251,6 +286,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -266,22 +302,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Quillow/Quillow.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Quillow/Preview Content\"";
 				DEVELOPMENT_TEAM = 9RC7L9TZVY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Quillow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.daniyalmohammed.Quillow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -295,22 +334,25 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Quillow/Quillow.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Quillow/Preview Content\"";
 				DEVELOPMENT_TEAM = 9RC7L9TZVY;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Quillow/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.daniyalmohammed.Quillow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -341,6 +383,61 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F05032CA277A5D58000A78C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 8.9.0;
+			};
+		};
+		F05032D1277A5D81000A78C8 /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		F05032DA277A5E2E000A78C8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F05032CB277A5D58000A78C8 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F05032CA277A5D58000A78C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		F05032CD277A5D58000A78C8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F05032CA277A5D58000A78C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F05032CF277A5D58000A78C8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F05032CA277A5D58000A78C8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F05032D2277A5D81000A78C8 /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F05032D1277A5D81000A78C8 /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		F05032DB277A5E2E000A78C8 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F05032DA277A5E2E000A78C8 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F05032B1277A5A50000A78C8 /* Project object */;
 }

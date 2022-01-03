@@ -3,6 +3,31 @@ Quillow is an elegant book management app on the App Store that allows you to se
 
 Please use the following link: http://daniyalmoha.me/quillow-project.html
 
+
+**Quillow Features**
+
+ELEGANT USER INTERFACE: - Simple and pretty UI to showcase and record your books - NO ads, in-app purchases and other monetization - Beautiful dark mode is compatible with the app
+
+LOGIN FUNCTIONALITY: - Allows for user authenticated login to keep your booklist private - Able to access the same book list through multiple devices by login functionality
+
+FIND YOUR BOOKS: - Easily search our extensive database of books and add your book to your list - Automatically stores the book's information and provides a detailed view
+
+ADD YOUR FAVOURITES: - Quillow has a favourites functionality that allows for you to favourite a book - Allows you to sort and only show your favourite books
+
+SORT AND DELETE: - Allows you to customize the order of the books - Allows you to completely remove your book
+
+
+**Quillow Technical Overview**
+
+• Quillow utilizes Google Firebase Authentication to keep track of users and allows them to log in and access their data
+
+• Quillow utilizes Google Firestore to save and store data and allows the user to read the data onto their device
+
+• Quillow utilizes Google Books API to access and collect information from a database of books. Can store this data and create, read, update and delete books from and to the user's book list.
+
+• Quillow uses other dependencies such as SwiftyJSON to allow ease of access when using APIs
+
+
 **The Quillow Story**
 
 Since my childhood, I have been obsessed with using my iPad. I have always marveled at the ease of use and access to extensive data through the form of apps. Additionally, I am an avid reader and wanted to keep track of the books I have read. However, the apps on the app store either had ugly UI's, ads plastered everywhere and none allowed you to log in to the app so you can access through multiple devices. With this in mind, as soon my university semester 1A ended, (first-year fall term), I decided to build the app, both because I wanted to create something and because my book list was a need I wanted fulfilled. I will now explain the timeline of creating this app.
@@ -60,35 +85,12 @@ I sepnt the $130 dollars to be in the Apple Developer Program :( I then exported
 **Day Seventeen: Jan 2, 2021**
 To my shock, when I woke up checked my notifications, it said my app had been approved. They only took about 24 hours. I went on the App Store and my app was there. I was utterly gassed. I downloaded it and realized the log in screen photo was not there. Otherwise, the app worked perfectly. I realized I put the picture in the preview assets foler and not in the assets folder. I quickly rushed another update praying to the Apple gods to approve me once again. For the rest of this day, I spent writing on this website (Pretty much what you are reading above). Note: HTML/CSS seems incredibly easy now that I've traversed the land of APIs and bugs and complex syntax).
 
+
 **Lessons Learned:**
 
 • YouTube Tutorials/Stack Overflow is amazing but you can't rely on them - I learned almost everything through there, but as you develop your own app it becomes its own niche and the same tricks they do in the YT tutorials are not useful anymore for your project so you are forced to rely and find your own fixes. Additionally StackOverflow people's egos are insanely annoying and they will reply to your question with a link to another question that has nothing to do with your own.
 
 • Just Do It - As a beginner it is a struggle to get started and when you face problems they seem impossible and it feels easier to give up. However, it is vital to keep the mentality that everything is doable and you will push through it and succeed. Also, don't just completely copy another project from YouTube. We learn by making mistakes and its important to feel comfortable making them.
-
-
-**Quillow Features**
-
-ELEGANT USER INTERFACE: - Simple and pretty UI to showcase and record your books - NO ads, in-app purchases and other monetization - Beautiful dark mode is compatible with the app
-
-LOGIN FUNCTIONALITY: - Allows for user authenticated login to keep your booklist private - Able to access the same book list through multiple devices by login functionality
-
-FIND YOUR BOOKS: - Easily search our extensive database of books and add your book to your list - Automatically stores the book's information and provides a detailed view
-
-ADD YOUR FAVOURITES: - Quillow has a favourites functionality that allows for you to favourite a book - Allows you to sort and only show your favourite books
-
-SORT AND DELETE: - Allows you to customize the order of the books - Allows you to completely remove your book
-
-
-**Quillow Technical Overview**
-
-• Quillow utilizes Google Firebase Authentication to keep track of users and allows them to log in and access their data
-
-• Quillow utilizes Google Firestore to save and store data and allows the user to read the data onto their device
-
-• Quillow utilizes Google Books API to access and collect information from a database of books. Can store this data and create, read, update and delete books from and to the user's book list.
-
-• Quillow uses other dependencies such as SwiftyJSON to allow ease of access when using APIs
 
 
 **Quillow Privacy Policy**

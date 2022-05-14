@@ -88,7 +88,7 @@ To my shock, when I woke up checked my notifications, it said my app had been ap
 
 **Lessons Learned:**
 
-• YouTube Tutorials/Stack Overflow is amazing but you can't rely on them - I learned almost everything through there, but as you develop your own app it becomes its own niche and the same tricks they do in the YT tutorials are not useful anymore for your project so you are forced to rely and find your own fixes. Additionally StackOverflow people's egos are insanely annoying and they will reply to your question with a link to another question that has nothing to do with your own.
+• YouTube Tutorials/Stack Overflow is amazing but you can't rely on them - I learned almost everything through there, but as you develop your own app it becomes its own niche and the same tricks they do in the YT tutorials are not useful anymore for your project so you are forced to rely and find your own fixes.
 
 • Just Do It - As a beginner it is a struggle to get started and when you face problems they seem impossible and it feels easier to give up. However, it is vital to keep the mentality that everything is doable and you will push through it and succeed. Also, don't just completely copy another project from YouTube. We learn by making mistakes and its important to feel comfortable making them.
 

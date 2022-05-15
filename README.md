@@ -36,10 +36,12 @@ SORT AND DELETE: - Allows you to customize the order of the books - Allows you t
 
 • Quillow uses other dependencies such as SwiftyJSON to allow ease of access when using APIs
 
-
-
-Please use the following link: http://daniyalmoha.me/quillow-project.html
 ‎ 
+
+
+Please use the following link for a more appealing viewing experience: http://daniyalmoha.me/quillow-project.html
+‎ 
+
 
 **The Quillow Story**
 

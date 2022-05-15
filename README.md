@@ -1,7 +1,7 @@
 # Quillow
 Quillow is an elegant book management app on the App Store that allows you to search, add and track the books you've consumed.
 
-View the app here: https://apps.apple.com/app/quillow/id1602885135
+Open the app here: https://apps.apple.com/app/quillow/id1602885135
 
 
 **Quillow Features**

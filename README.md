@@ -3,8 +3,6 @@ Quillow is an elegant book management app on the App Store that allows you to se
 
 View the app here: https://apps.apple.com/app/quillow/id1602885135
 
-Please use the following link: http://daniyalmoha.me/quillow-project.html
-
 
 **Quillow Features**
 
@@ -29,6 +27,9 @@ SORT AND DELETE: - Allows you to customize the order of the books - Allows you t
 
 • Quillow uses other dependencies such as SwiftyJSON to allow ease of access when using APIs
 
+
+
+Please use the following link: http://daniyalmoha.me/quillow-project.html
 
 **The Quillow Story**
 

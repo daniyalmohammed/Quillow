@@ -5,7 +5,6 @@ Quillow is an elegant book management app on the App Store that allows you to se
 <img src="https://user-images.githubusercontent.com/88976402/168452198-cfb621a0-3cab-42a5-bfdc-69638fb65b6e.png" width="225">
 <img src="https://user-images.githubusercontent.com/88976402/168452287-5715d01d-da22-4f29-a590-224df84e24ad.png" width="225">
 <img src="https://user-images.githubusercontent.com/88976402/168452353-9cdb8513-bb45-4bfd-b1a1-7abe56e4ba79.png" width="225">
-<img src="https://user-images.githubusercontent.com/88976402/168452354-b70afae0-5197-46d6-912f-23702fe56163.png" width="225">
 <img src="https://user-images.githubusercontent.com/88976402/168452355-6070058e-911c-4f5b-8b76-572f39e4ce40.png" width="225">
 </p>
 

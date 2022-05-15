@@ -7,7 +7,7 @@ Quillow is an elegant book management app on the App Store that allows you to se
 </p>
 
 
-Open the app here: https://apps.apple.com/us/app/quillow/id1602885135?platform=iphone .
+Open the app here: https://apps.apple.com/us/app/quillow/id1602885135?platform=iphone
 
 
 
